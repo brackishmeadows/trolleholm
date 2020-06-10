@@ -22,6 +22,8 @@ import processing.opengl.*;
 
 //bugs:
 //6 - arrow hitbox too large?
+//10- null pointer crash bug when descending stairs
+//does this happen when youve been to a second level om a previous run in the same session
 
 
 //possibly fixed
@@ -34,8 +36,6 @@ import processing.opengl.*;
 //3 - you can explode bombs in other rooms, but you can't blow up trolls that way.
   //-fix: each bomb has its own list of trolls.
 //8 - freakout arrows. - fixed.
-
-
 
 Level[] levels;
 int currlevel;
