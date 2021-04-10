@@ -188,7 +188,7 @@ void drawmenu() {
   fill(green);
   textFont(smalltext);
   text("Enter.", 128,200);
-  text("Morgan Brackish Meadows, 2021", 128,300);
+  text("Brackish Meadows, 2021", 128,300);
 }
 
 //------------------------------------------------------
