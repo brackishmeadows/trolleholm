@@ -377,5 +377,3 @@ String[] getstrings(){
 } 
 
 }// end class
-
-

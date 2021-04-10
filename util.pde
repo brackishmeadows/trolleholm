@@ -27,6 +27,3 @@ float cycle(float value, float inc, float min, float max){
     value=min+(value-max);  
   return value;
 }
-
-
-

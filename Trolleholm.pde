@@ -79,7 +79,7 @@ void setup(){
   green = color(90,150,84);
   
   largetext = loadFont("eucrosiaupc32.vlw");  
-  smalltext = loadFont("fangsong14.vlw");
+  smalltext = loadFont("BitstreamVeraSansMono-Bold-13.vlw");
   
   keys[0] = new Key ("Up",     38);
   keys[1] = new Key ("Down",   40);
@@ -170,8 +170,8 @@ void drawgame() {
   fill(green);
   
   if (player.hasbombs != 0) 
-    text(player.hasbombs +" Bomb" +((player.hasbombs==1)?"":"s"), 64,287); 
-    
+    text(player.hasbombs +" Bomb" +((player.hasbombs==1)?"":"s"), 192,302); 
+   
   text(player.hasgems +" Gem"+((player.hasgems==1)?"":"s"), 192,287); 
   
   if (player.haschalice != 0) 
@@ -234,4 +234,3 @@ void screenshot(){
   saveFrame(filestring);
   println("saved "+filestring);
 }
-

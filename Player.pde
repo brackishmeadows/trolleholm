@@ -46,12 +46,17 @@ void checkkeys(){
   
 //---------------------------------------------------------------------- 
 void repeatkeys(){
-  if (KEYUP.down) addpos(0,-PLAYERSPEED);
-  if (KEYDOWN.down) addpos(0,PLAYERSPEED);
-  if (KEYLEFT.down) addpos(-PLAYERSPEED,0);
-  if (KEYRIGHT.down) addpos(PLAYERSPEED,0);
+  if(random(1)< .99) {
+    if (KEYUP.down) addpos(0,-PLAYERSPEED);
+    if (KEYDOWN.down) addpos(0,PLAYERSPEED);
+  }
+  if(random(1)< .99) {
+    if (KEYLEFT.down) addpos(-PLAYERSPEED,0);
+    if (KEYRIGHT.down) addpos(PLAYERSPEED,0);
+  }
   if (KEYSWORD.down) dosword();
 }
+
 
 //----------------------------------------------------------------------  
 void use() {
