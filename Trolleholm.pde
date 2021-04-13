@@ -72,7 +72,7 @@ void setup(){
   
   noStroke();
   noSmooth();
-  tiles = loadImage("tiles.png");
+  tiles = loadImage("tiles2.png");
   
   blueblack = color(0,0,5);
   purple = color(120,70,120);
